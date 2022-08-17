@@ -1,0 +1,248 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2em;
+  border-bottom: 1px solid rgb(77, 83, 76);
+  background: rgb(68, 82, 65);
+  position: sticky;
+  top: 0;
+  color:white;
+}
+
+header * {
+  cursor: pointer;
+}
+
+
+
+.carticon {
+  display: flex;
+  gap: 16px;
+}
+
+
+button {
+  cursor: pointer;
+  background: #24335800;
+  color: white;
+  transition: transform .3s linear;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
+
+.hero {
+  background-image: url(/Palante-Packs/images/hero.jpg);
+  height: 80vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.bagspan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(143, 82, 42);
+  height: 10vh;
+
+}
+
+.baginventory {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+}
+
+.item1 {
+  background: url(/Palante-Packs/images/desert-pack-eggplant.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item2 {
+  background: url(/Palante-Packs/images/joey-pack-back-gridstop.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item3 {
+  background: url(/Palante-Packs/images/v2-pack-ultraweave-white-back.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item4 {
+  background: url(/Palante-Packs/images/ultralight-pack-black-gridstop.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item5 {
+  background: url(/Palante-Packs/images/sidebag-clay.jpg) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item6 {
+  background: url(/Palante-Packs/images/simple-pack-kit.jpg) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.gearspan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(44, 101, 161);
+  height: 10vh;
+}
+
+.gearinventory {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 2em;
+}
+
+
+.item7 {
+  background: url(/Palante-Packs/images/Palante-tee-front.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item8 {
+  background: url(/Palante-Packs/images/grid-fleece-hoody-yellow.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item9 {
+  background: url(/Palante-Packs/images/long-water-bottle-green.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item10 {
+  background: url(/Palante-Packs/images/wide-water-bottle-grey.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item11 {
+  background: url(/Palante-Packs/images/cork-ball2-3.jpg) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item12 {
+  background: url(/Palante-Packs/images/rolling-tray-back.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.item13 {
+  background: url(/Palante-Packs/images/titanium-pipe-1.png) no-repeat top center;
+  height: 40vh;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 40vh;
+}
+
+.iteminfo {
+  padding-top: 35vh;
+  color: black;
+}
+
+
+.footer {
+  background-color: rgb(217, 217, 217);
+  height: 8vh;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .cartui {
+    width: 90vw;
+  }
+}

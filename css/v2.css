@@ -23,3 +23,14 @@ header {
 header * {
     cursor: pointer;
 }
+
+button {
+    cursor: pointer;
+    background: #24335800;
+    color: white;
+    transition: transform .3s linear;
+  }
+  
+  button:hover {
+    transform: translateY(-3px);
+  }

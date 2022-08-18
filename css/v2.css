@@ -29,8 +29,130 @@ button {
     background: #24335800;
     color: white;
     transition: transform .3s linear;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     transform: translateY(-3px);
-  }
+}
+
+.vcarousel {
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    display: block;
+    max-width: 315px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.row {
+    width: 525px;
+    margin: 0 auto;
+    /*border:1px dashed black;*/
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.row>p {
+    display: none;
+    text-align: left;
+}
+
+
+.wrapper {
+    display: inline-block;
+    position: relative;
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    /*border:1px dashed black;*/
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 72%;
+    width: 72%;
+    margin: -36% 0 0 -36%;
+    border-radius: 200px;
+    transition: 0.5s ease;
+}
+
+.button1 {
+    background: #000000;
+}
+
+.button2 {
+    background: #333333;
+}
+
+.button3 {
+    background: #666666;
+}
+
+
+
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    margin: -50% 0 0 -50%;
+}
+
+
+.select {
+    display: flex;
+    position: fixed;
+    right: 0;
+}
+
+.product {
+    display: flex;
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    width: 25vw;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+#v2 {
+    display: block;
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+.vimage {
+    width: 300px;
+}
+
+.vcarousel {
+    width: 300px;
+}
+
+#dude {
+    width: 315px;
+
+}

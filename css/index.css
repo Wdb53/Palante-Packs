@@ -62,7 +62,7 @@ button:hover {
   background-color: rgb(143, 82, 42);
   height: 14vh;
   color: white;
-  
+
 
 }
 
@@ -260,21 +260,20 @@ button:hover {
   background-color: rgb(68, 82, 65);
   height: 24vh;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-around;
   color: white;
   font-family: elza, sans-serif;
   font-weight: 800;
   font-style: normal;
-  
+
 }
 
 .footercenter {
-  justify-items:center
+  justify-items: center;
   font-family: elza, sans-serif;
   font-weight: 400 !important;
   font-style: normal;
-  
 
 }
 

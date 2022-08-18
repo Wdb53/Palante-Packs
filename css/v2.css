@@ -77,16 +77,14 @@ img {
 
 .button1,
 .button2,
-.button3,
-.button4,
-.button5 {
+.button3 {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 72%;
-    width: 72%;
+    height: 45%;
+    width: 45%;
     margin: -36% 0 0 -36%;
-    border-radius: 200px;
+    border-radius: 50px;
     transition: 0.5s ease;
 }
 
@@ -107,14 +105,13 @@ img {
 .button1:hover,
 .button2:hover,
 .button3:hover,
-.button4:hover,
 .button5:hover {
     cursor: pointer;
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 100%;
-    width: 100%;
+    height: 60%;
+    width: 60%;
     margin: -50% 0 0 -50%;
 }
 
@@ -133,7 +130,9 @@ img {
     width: 25vw;
     flex-direction: column;
     align-content: center;
-    
+    text-align: center;
+    vertical-align: middle;
+
 }
 
 #v2 {
@@ -148,11 +147,138 @@ img {
     width: 300px;
 }
 
+.title {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .vcarousel {
     width: 300px;
+    margin-left: 20px;
 }
 
 #dude {
     width: 315px;
 
+}
+
+.button4 {
+
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 45%;
+    width: 45%;
+    margin: -36% 0 0 -36%;
+    border-radius: 200px;
+    transition: 0.5s ease;
+    border-color: #000000;
+
+}
+
+.button4:hover {}
+
+.selectl {
+    display: flex;
+    flex-direction: column;
+}
+
+.addtocartbutton {
+    background-color: #000000;
+    color: #f1f1f1;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    right: 800px;
+    top: 1200px;
+    text-align: center;
+
+}
+
+
+
+.spacer {
+    padding-top: 1em;
+}
+
+.features {
+    width: 315px;
+    border: #000000;
+    border-style: solid;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.productgrid {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.gridimage1 {
+    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
+    height: 40vh;
+    width: 33%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gridimage2 {
+    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
+    height: 40vh;
+    width: 33%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gridimage3 {
+    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
+    height: 40vh;
+    width: 33%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gridimage4 {
+    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
+    height: 40vh;
+    width: 33%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gridimage5 {
+    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
+    height: 40vh;
+    width: 33%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gridimage6 {
+    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
+    height: 40vh;
+    width: 33%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }

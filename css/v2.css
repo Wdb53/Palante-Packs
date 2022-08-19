@@ -145,6 +145,7 @@ img {
 .title {
     margin-left: 80px;
     margin-top: 20px;
+    font-size: xx-large;
 }
 
 .vcarousel {
@@ -168,9 +169,7 @@ img {
 
 }
 
-.button4:hover {
-    /*waiting on hover testing*/
-}
+
 
 .selectl {
     display: flex;
@@ -191,7 +190,13 @@ img {
 
 }
 
-
+.sizechart {
+    text-decoration: underline;
+    cursor: pointer;
+    padding-top: 10px;
+    text-align: right;
+    
+}
 
 .spacer {
     padding-top: 1em;
@@ -201,13 +206,14 @@ img {
     width: 315px;
     border: #000000;
     border-style: solid;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 80px;
+    
 }
 
 .productgrid {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 100px;
     
 }
 

@@ -51,7 +51,8 @@ img {
 
 .row {
     width: 525px;
-    margin: 0 auto;
+    margin-top: 40px;
+    margin-left: 40px;
     /*border:1px dashed black;*/
 }
 
@@ -68,7 +69,6 @@ img {
 
 .wrapper {
     display: inline-block;
-    position: relative;
     height: 90px;
     width: 90px;
     margin: 5px;
@@ -78,7 +78,6 @@ img {
 .button1,
 .button2,
 .button3 {
-    position: absolute;
     top: 50%;
     left: 50%;
     height: 45%;
@@ -107,7 +106,6 @@ img {
 .button3:hover,
 .button5:hover {
     cursor: pointer;
-    position: absolute;
     top: 50%;
     left: 50%;
     height: 60%;
@@ -124,7 +122,7 @@ img {
 
 .product {
     display: flex;
-    position: absolute;
+    margin-left: 600px;
     left: 700px;
     top: 100px;
     width: 25vw;
@@ -144,22 +142,18 @@ img {
 }
 
 .vimage {
-    width: 300px;
+    margin-top: 10px;
 }
 
 .title {
-    margin-left: 20px;
+    margin-left: 80px;
     margin-top: 20px;
 }
 
 .vcarousel {
-    width: 300px;
-    margin-left: 20px;
-}
-
-#dude {
-    width: 315px;
-
+    width: 200px;
+    margin-left: 80px;
+    
 }
 
 .button4 {
@@ -284,3 +278,96 @@ img {
     align-items: center;
     
 }
+
+.topproduct {
+    display:flex;
+}
+
+.footer {
+    background-color: rgb(68, 82, 65);
+    height: 24vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: elza, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  
+  }
+
+  .cart {
+    background-color: #f1f1f1;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px ;
+    position: fixed;
+    right: 0px;
+    height: 1000px;
+    top:4.8em;
+    width: 450px;
+  }
+
+  .cartitem {
+    display: flex;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    margin: 10px;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .costspacer {
+    padding-top: 10px;
+    
+  }
+
+  .costspacerplus {
+    padding-top: 5px;
+    letter-spacing: 10px;
+    font-size: x-large;
+    border-style: solid;
+    border-color: #000000;
+    border-width: .5px;
+    width: 70px;
+    margin-top:10px;
+    text-align: center;
+    padding-left: 5px;
+    cursor: pointer;
+  }
+
+  .cost {
+    text-align: right;
+    margin-right: 100px;
+    font-size: large;
+  }
+  
+  .carttitle {
+    background-color: #000000;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .cartbuttons {
+    background-color: #000000;
+    color: #f1f1f1;
+    text-align: center;
+    width: 180px;
+    margin: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 2px;
+  }
+
+  .costfinal {
+    font-size: x-large;
+    padding-top: 10px;
+  }
+
+  .cart {
+    display:none ;
+  }

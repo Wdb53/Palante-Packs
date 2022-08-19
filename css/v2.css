@@ -52,7 +52,7 @@ img {
 .row {
     width: 525px;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 95px;
     /*border:1px dashed black;*/
 }
 
@@ -122,23 +122,20 @@ img {
 
 .product {
     display: flex;
-    margin-left: 600px;
-    left: 700px;
-    top: 100px;
-    width: 25vw;
+    margin-left: 500px;
     flex-direction: column;
     align-content: center;
     text-align: center;
     vertical-align: middle;
-
+    margin-right: 500px;
 }
 
 #v2 {
-    display: block;
-    max-width: 500px;
-    max-height: 500px;
-    width: auto;
-    height: auto;
+    
+    max-width: 600px;
+    max-height: 600px;
+    
+    
 }
 
 .vimage {
@@ -186,10 +183,11 @@ img {
     cursor: pointer;
     width: 200px;
     height: 40px;
-    position: absolute;
-    right: 800px;
-    top: 1200px;
+    right: 720px;
+    top: 950px;
     text-align: center;
+    margin-left: 200px;
+    padding-top: 10px;
 
 }
 
@@ -283,18 +281,7 @@ img {
     display:flex;
 }
 
-.footer {
-    background-color: rgb(68, 82, 65);
-    height: 24vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    color: white;
-    font-family: elza, sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  
-  }
+
 
   .cart {
     background-color: #f1f1f1;
@@ -369,5 +356,34 @@ img {
   }
 
   .cart {
-    display:none ;
+    display:none;
+  }
+
+
+  .footer {
+    background-color: rgb(68, 82, 65);
+    height: 24vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-family: elza, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  
+  }
+  
+  .footercenter {
+    justify-items: center;
+    font-family: elza, sans-serif;
+    font-weight: 400 !important;
+    font-style: normal;
+    text-align: center;
+    
+  
+  }
+
+  .footerlogo {
+    margin-left: 15px;
+    margin-bottom: 10px;
   }

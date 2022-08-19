@@ -26,13 +26,13 @@
         <div class="topproduct">
             <div class="vcarousel">
                 <div class="vimage">
-                    <img src="/Palante-Packs/images/-DSF4159.jpg" />
+                    <img src="/Palante-Packs/images/resized-palante-detail-image-1.png" />
                 </div>
                 <div class="vimage">
-                    <img src="/Palante-Packs/images/unnamed.jpg" />
+                    <img src="/Palante-Packs/images/resized-palante-detail-image-2.png" />
                 </div>
                 <div class="vimage">
-                    <img id="dude" src="/Palante-Packs/images/dude.jpg" />
+                    <img src="/Palante-Packs/images/resized-palante-detail-image-3.png" />
                 </div>
             </div>
             <div class="product">
@@ -46,9 +46,7 @@
                 <div class="productimg">
                     <img id="v2" src="/Palante-Packs/images/v2whiteBack.png" />
                 </div>
-                <div class="prodinfo">
-
-                </div>
+                
                 <div class="itemdesc">
                     <p>Black ultraweave $240</p>
                     <p>BLUW | Style No. 49307</p>
@@ -69,6 +67,11 @@
                             </div>
                         </div>
 
+                    </div>
+                </div>
+                <div class="addtocart">
+                    <div class="addtocartbutton">
+                        <p>add to cart</p>
                     </div>
                 </div>
             </div>
@@ -99,13 +102,9 @@
 
 
 
-    <div class="addtocart">
-        <div class="addtocartbutton">
-            <p>add to cart</p>
-        </div>
-    </div>
+    
     <div class="sizechart">
-
+        <p>Size Chart</p>
     </div>
     <div class="productgrid">
         <div class="gridimage1">
@@ -185,9 +184,10 @@
 
     </div>
 
+
     <script>
         function cartFunction() {
-            var x = document.getElementById("cart");
+            var x = document.getElementByClass("cart");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {

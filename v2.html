@@ -13,7 +13,7 @@
     <header>
         <div class="logo"><a href="/Palante-Packs/index.html"><img src="/Palante-Packs/images/Palante Logo.png"></a>
         </div>
-        <button class="carticon" onclick="cartFunction"><img src="/Palante-Packs/images/palante cart.png"></button>
+        <button class="carticon" onclick="myFunction()"><img src="/Palante-Packs/images/palante cart.png"></button>
 
     </header>
     <div class="top">
@@ -183,7 +183,7 @@
 
 
     <script>
-        function cartFunction() {
+        function myFunction() {
             var x = document.getElementByClass("cart");
             if (x.style.display === "none") {
                 x.style.display = "block";

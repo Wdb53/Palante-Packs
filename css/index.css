@@ -88,6 +88,15 @@ button:hover {
   padding-bottom: 2em;
 }
 
+.inventory {
+  font-family: elza, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: small;
+  padding-top: 10px;
+}
+
+
 .item1 {
   background: url(/Palante-Packs/images/desertpackFront.png) no-repeat top center;
   height: 40vh;
@@ -97,6 +106,7 @@ button:hover {
   justify-content: center;
   align-items: center;
   background-size: 40vh;
+  
 }
 
 .item2 {

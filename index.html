@@ -13,7 +13,7 @@
 
     <header>
         <div class="logo"><a href="/Palante-Packs/index.html"><img src="/Palante-Packs/images/Palante Logo.png"></a></div>
-        <button class="carticon" onclick="cartfunction"><img src="images/palante cart.png"></button>
+        <button class="carticon" onclick="myFunction()"><img src="images/palante cart.png"></button>
 
     </header>
 
@@ -23,7 +23,7 @@
     <div class="baglist">
         <div class="bagspan">
             <div class="bagspantitle">
-                <h2>Backpacks</h2>
+                <h2>BACKPACKS</h2>
             </div>
             <div>
                 <p class="bagspantext">Ultralight, Frameless, Hand-Made</p>
@@ -71,7 +71,7 @@
 
     <div class="gearlist">
         <div class="gearspan">
-            <h2>Gear</h2>
+            <h2>GEAR</h2>
         </div>
         <div class="gearinventory">
             <div class="item7">
@@ -119,6 +119,45 @@
         </div>
     </div>
 
+    <div id="cart">
+        <div class="carttitle">
+            <img src="">
+            <h2>
+                Cart
+            </h2>
+        </div>
+        <div class="cartitem">
+            <div>
+                <img src="/Palante-Packs/images/v2whiteFront.png">
+            </div>
+            <div>
+                <p>Item: <strong>V2 Pack</strong></p>
+                <p>Color: <strong>White Ultraweave</strong></p>
+                <p>Length: <strong>19"</strong></p>
+                <p class="costspacer">Cost: <strong>$240</strong></p>
+                <p>Quantity: <strong>1</strong></p>
+                <p class="costspacerplus"><strong>+ -</strong></p>
+            </div>
+        </div>
+        <div class="cost">
+            <h4>Cost: $240</h4>
+            <h4>Tax: $4.25</h4>
+            <h4 class="costfinal"><strong>Total: $244.25</strong></h4>
+        </div>
+        <div class="cartbuttons">
+            <h2>
+                Check Out
+            </h2>
+        </div>
+        <div class="cartbuttons">
+            <h2>
+                Return to Shop
+            </h2>
+        </div>
+
+    </div>
+
+
     <div class="footer">
         <div class="footerleft">
             <h3>Terms of Use</h3>
@@ -138,13 +177,22 @@
 
 
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="/JS/index.js"></script>
+    <script>
+        function myFunction() {
+            console.log("Test");
+            var x = document.getElementById("cart");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 
 
-<!--Boom baby Brent makes a comment Aug 17 11:45am-->
+
 
 
 </html>

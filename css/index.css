@@ -70,6 +70,7 @@ button:hover {
   font-family: elza, sans-serif;
   font-weight: 900;
   font-style: normal;
+  font-size: xx-large;
 }
 
 .bagspantext {
@@ -77,6 +78,7 @@ button:hover {
   font-family: elza, sans-serif;
   font-weight: 400;
   font-style: normal;
+
 }
 
 .baginventory {
@@ -163,6 +165,7 @@ button:hover {
   font-family: elza, sans-serif;
   font-weight: 900;
   font-style: normal;
+  font-size: xx-large;
 }
 
 .gearinventory {
@@ -287,8 +290,86 @@ button:hover {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 700px) {
-  .cartui {
-    width: 90vw;
-  }
+#cart {
+  background-color: #f1f1f1;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  position: fixed;
+  right: 0px;
+  height: 1000px;
+  top: 4.8em;
+  width: 450px;
+}
+
+.cartitem {
+  display: flex;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  margin: 10px;
+  align-items: center;
+  justify-self: center;
+}
+
+.costspacer {
+  padding-top: 10px;
+
+}
+
+.costspacerplus {
+  padding-top: 5px;
+  letter-spacing: 10px;
+  font-size: x-large;
+  border-style: solid;
+  border-color: #000000;
+  border-width: .5px;
+  width: 70px;
+  margin-top: 10px;
+  text-align: center;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+.cost {
+  text-align: right;
+  margin-right: 100px;
+  font-size: large;
+}
+
+.carttitle {
+  background-color: #000000;
+  color: white;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.cartbuttons {
+  background-color: #000000;
+  color: #f1f1f1;
+  text-align: center;
+  width: 180px;
+  margin: 20px;
+  margin-left: 150px;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.costfinal {
+  font-size: x-large;
+  padding-top: 10px;
+}
+
+#cart {
+  display: none;
+}
+
+img {
+  display: block;
+  max-width: 315px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
 }

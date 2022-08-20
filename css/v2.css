@@ -224,34 +224,34 @@ img {
 }
 
 .gridimagestyle {
-    padding-bottom: 50%;
+    padding-bottom: 60%;
     background-size: cover;
     width: 33%;
     background-repeat: no-repeat;
 }
 
 .gridimage1 {
-    background-image: url(/Palante-Packs/images/guy.jpg);
+    background-image: url(/Palante-Packs/images/grid4.png);
 }
 
 .gridimage2 {
-    background-image: url(/Palante-Packs/images/guy.jpg);
+    background-image: url(/Palante-Packs/images/grid2.png);
 }
 
 .gridimage3 {
-    background-image: url(/Palante-Packs/images/guy.jpg);
+    background-image: url(/Palante-Packs/images/grid3.png);
 }
 
 .gridimage4 {
-    background-image: url(/Palante-Packs/images/guy.jpg);
+    background-image: url(/Palante-Packs/images/grid1.png);
 }
 
 .gridimage5 {
-    background-image: url(/Palante-Packs/images/guy.jpg);
+    background-image: url(/Palante-Packs/images/grid5.png);
 }
 
 .gridimage6 {
-    background-image: url(/Palante-Packs/images/guy.jpg);
+    background-image: url(/Palante-Packs/images/grid6.png);
 }
 
 .topproduct {

@@ -104,28 +104,28 @@
     
     
     <div class="productgrid">
-        <div class="gridimage1">
+        <div class="gridimage1 gridimagestyle">
 
         </div>
-        <div class="gridimage2">
+        <div class="gridimage2 gridimagestyle">
 
         </div>
-        <div class="gridimage3">
+        <div class="gridimage3 gridimagestyle">
 
         </div>
-        <div class="gridimage4">
+        <div class="gridimage4 gridimagestyle">
 
         </div>
-        <div class="gridimage5">
+        <div class="gridimage5 gridimagestyle">
 
         </div>
-        <div class="gridimage6">
+        <div class="gridimage6 gridimagestyle">
 
         </div>
 
     </div>
 
-    <div class="cart">
+    <div id="cart">
         <div class="carttitle">
             <img src="">
             <h2>
@@ -184,7 +184,8 @@
 
     <script>
         function myFunction() {
-            var x = document.getElementByClass("cart");
+            console.log("Test");
+            var x = document.getElementById("cart");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {

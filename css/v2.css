@@ -131,11 +131,11 @@ img {
 }
 
 #v2 {
-    
+
     max-width: 600px;
     max-height: 600px;
-    
-    
+
+
 }
 
 .vimage {
@@ -151,7 +151,7 @@ img {
 .vcarousel {
     width: 200px;
     margin-left: 80px;
-    
+
 }
 
 .button4 {
@@ -195,7 +195,7 @@ img {
     cursor: pointer;
     padding-top: 10px;
     text-align: right;
-    
+
 }
 
 .spacer {
@@ -207,101 +207,66 @@ img {
     border: #000000;
     border-style: solid;
     margin-top: 80px;
-    
+
 }
 
 .productgrid {
     display: flex;
     flex-wrap: wrap;
     padding-top: 100px;
-    
+
+}
+
+.gridimagestyle {
+    padding-bottom: 50%;
+    background-size: cover;
+    width: 33%;
+    background-repeat: no-repeat;
 }
 
 .gridimage1 {
-    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
-    height: 40vh;
-    width: 33%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-image: url(/Palante-Packs/images/guy.jpg);
 }
 
 .gridimage2 {
-    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
-    height: 40vh;
-    width: 33%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-image: url(/Palante-Packs/images/guy.jpg);
 }
 
 .gridimage3 {
-    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
-    height: 40vh;
-    width: 33%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-image: url(/Palante-Packs/images/guy.jpg);
 }
 
 .gridimage4 {
-    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
-    height: 40vh;
-    width: 33%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-image: url(/Palante-Packs/images/guy.jpg);
 }
 
 .gridimage5 {
-    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
-    height: 40vh;
-    width: 33%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-image: url(/Palante-Packs/images/guy.jpg);
 }
 
 .gridimage6 {
-    background: url(/Palante-Packs/images/guy.jpg) no-repeat top center;
-    height: 40vh;
-    width: 33%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    background-image: url(/Palante-Packs/images/guy.jpg);
 }
 
 .topproduct {
-    display:flex;
+    display: flex;
 }
 
 
 
-  .cart {
+#cart {
     background-color: #f1f1f1;
     border-style: solid;
     border-color: #000000;
-    border-width: 1px ;
+    border-width: 1px;
     position: fixed;
     right: 0px;
     height: 1000px;
-    top:4.8em;
+    top: 4.8em;
     width: 450px;
-  }
+}
 
-  .cartitem {
+.cartitem {
     display: flex;
     border-style: solid;
     border-color: #000000;
@@ -309,14 +274,14 @@ img {
     margin: 10px;
     align-items: center;
     justify-self: center;
-  }
+}
 
-  .costspacer {
+.costspacer {
     padding-top: 10px;
-    
-  }
 
-  .costspacerplus {
+}
+
+.costspacerplus {
     padding-top: 5px;
     letter-spacing: 10px;
     font-size: x-large;
@@ -324,27 +289,27 @@ img {
     border-color: #000000;
     border-width: .5px;
     width: 70px;
-    margin-top:10px;
+    margin-top: 10px;
     text-align: center;
     padding-left: 5px;
     cursor: pointer;
-  }
+}
 
-  .cost {
+.cost {
     text-align: right;
     margin-right: 100px;
     font-size: large;
-  }
-  
-  .carttitle {
+}
+
+.carttitle {
     background-color: #000000;
     color: white;
     height: 100px;
     text-align: center;
     padding-top: 40px;
-  }
+}
 
-  .cartbuttons {
+.cartbuttons {
     background-color: #000000;
     color: #f1f1f1;
     text-align: center;
@@ -354,19 +319,19 @@ img {
     cursor: pointer;
     height: 30px;
     border-radius: 2px;
-  }
+}
 
-  .costfinal {
+.costfinal {
     font-size: x-large;
     padding-top: 10px;
-  }
+}
 
-  .cart {
-    display:none;
-  }
+#cart {
+    display: none;
+}
 
 
-  .footer {
+.footer {
     background-color: rgb(68, 82, 65);
     height: 24vh;
     display: flex;
@@ -376,20 +341,20 @@ img {
     font-family: elza, sans-serif;
     font-weight: 800;
     font-style: normal;
-  
-  }
-  
-  .footercenter {
+
+}
+
+.footercenter {
     justify-items: center;
     font-family: elza, sans-serif;
     font-weight: 400 !important;
     font-style: normal;
     text-align: center;
-    
-  
-  }
 
-  .footerlogo {
+
+}
+
+.footerlogo {
     margin-left: 15px;
     margin-bottom: 10px;
-  }
+}
